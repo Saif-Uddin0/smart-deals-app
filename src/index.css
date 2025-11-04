@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #9F62F2;
+  --color-secondary: white;
+}
+
+.text-st {
+  background-image: linear-gradient(to right, #632EE3 0%, #9F62F2 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* show the gradient through the text */
+}
+.border-st {
+  border: 4px solid transparent;
+  border-image: linear-gradient(to right, #632EE3, #9F62F2);
+  border-image-slice: 1;
+}
+
+
+.bg-st {
+  
+  background-color: #632EE3;
+  background-image: linear-gradient(to right, #632EE3 0%, #9F62F2 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
