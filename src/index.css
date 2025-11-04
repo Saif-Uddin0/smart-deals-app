@@ -11,6 +11,13 @@
   --color-secondary: white;
 }
 
+.btn-gradient {
+  @apply text-white border-none bg-gradient-to-r from-[#632EE3] to-[#9F62F2];
+}
+
+.btn-gradient:hover {
+  @apply from-[#7544E8] to-[#A97AF5];
+}
 .text-st {
   background-image: linear-gradient(to right, #632EE3 0%, #9F62F2 100%);
   -webkit-background-clip: text;
