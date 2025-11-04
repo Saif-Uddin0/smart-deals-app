@@ -18,7 +18,7 @@
   color: transparent; /* show the gradient through the text */
 }
 .border-st {
-  border: 4px solid transparent;
+  border: 2px solid transparent;
   border-image: linear-gradient(to right, #632EE3, #9F62F2);
   border-image-slice: 1;
 }
