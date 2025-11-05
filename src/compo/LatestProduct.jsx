@@ -3,7 +3,7 @@ import ProductCard from '../components/ProductCard/ProductCard';
 
 const LatestProduct = ({ latestProductPromise }) => {
     const products = use(latestProductPromise);
-    console.log(products);
+    // console.log(products);
 
     return (
         <div className='mt-10'>

@@ -11,11 +11,11 @@
   --color-secondary: white;
 }
 
-.btn-gradient {
+.btn-st {
   @apply text-white border-none bg-gradient-to-r from-[#632EE3] to-[#9F62F2];
 }
 
-.btn-gradient:hover {
+.btn-st:hover {
   @apply from-[#7544E8] to-[#A97AF5];
 }
 .text-st {
@@ -25,9 +25,10 @@
   color: transparent; /* show the gradient through the text */
 }
 .border-st {
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   border-image: linear-gradient(to right, #632EE3, #9F62F2);
   border-image-slice: 1;
+  /* border-radius: 30px; */
 }
 
 

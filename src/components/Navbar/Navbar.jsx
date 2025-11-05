@@ -16,14 +16,14 @@ const Navbar = () => {
     }
 
     const links = <>
-        <li><NavLink to={'/'}>Home</NavLink></li>
-        <li><NavLink to={'/allproducts'}>All Products</NavLink></li>
+        <li><NavLink to={'/'} className={({isActive})=> isActive? 'text-st px-3 py-2':''}> Home</NavLink></li>
+        <li><NavLink to={'/allproducts'} className={({isActive})=> isActive? 'text-st px-3 py-2':''}>All Products</NavLink></li>
         {
             user &&
             <>
-                <li><NavLink to={'/myproducts'}>MyProducts</NavLink></li>
-                <li><NavLink to={'/mybids'}>My Bids</NavLink></li>
-                <li><NavLink to={'/createproducts'}>Create Product</NavLink></li>
+                <li><NavLink to={'/myproducts'} className={({isActive})=> isActive? 'text-st px-3 py-2':''}>MyProducts</NavLink></li>
+                <li><NavLink to={'/mybids'} className={({isActive})=> isActive? 'text-st px-3 py-2':''}>My Bids</NavLink></li>
+                <li><NavLink to={'/createproducts'} className={({isActive})=> isActive? 'text-st px-3 py-2':''}>Create Product</NavLink></li>
             </>
         }
     </>

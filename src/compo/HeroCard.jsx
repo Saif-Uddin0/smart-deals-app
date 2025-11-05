@@ -40,7 +40,7 @@ const HeroCard = () => {
                         <button className="btn btn-sm btn-gradient rounded-full px-6">
                             Watch All Products
                         </button>
-                        <button className="btn btn-sm border-st rounded-full px-6 text-[#632EE3] hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:text-white transition-all">
+                        <button className="btn btn-sm border border-primary rounded-full px-6 text-[#632EE3] hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:text-white transition-all">
                             Post an Product
                         </button>
                     </div>
