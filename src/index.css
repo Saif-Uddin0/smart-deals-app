@@ -8,7 +8,7 @@
   name: "light";
   default: true;
   --color-primary: #9F62F2;
-  --color-secondary: white;
+  --color-secondary: red;
 }
 
 .btn-st {
